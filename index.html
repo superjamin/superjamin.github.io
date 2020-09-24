@@ -1,0 +1,2257 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="jamin blog">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="jamin blog">
+<meta property="article:author" content="jia ming">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>jamin blog</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">jamin blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/23/Spring%E4%B9%8BBean%E4%BD%9C%E7%94%A8%E5%9F%9F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/09/23/Spring%E4%B9%8BBean%E4%BD%9C%E7%94%A8%E5%9F%9F/" itemprop="url">Spring之Bean作用域</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-09-23T20:45:14+08:00">
+                2020-09-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Spring/" itemprop="url" rel="index">
+                    <span itemprop="name">Spring</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id><a href="#" class="headerlink" title></a></h1>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/" itemprop="url">Spring之Bean作用域</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-09-23T20:45:14+08:00">
+                2020-09-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Spring/" itemprop="url" rel="index">
+                    <span itemprop="name">Spring</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Bean的作用域"><a href="#Bean的作用域" class="headerlink" title="Bean的作用域"></a>Bean的作用域</h2><p>定义Bean的作用域，会对Bean的生命周期和创建方式产生影响。</p>
+<p>Bean有五种作用域：</p>
+<p>singleton ：在SpringIoc容器中只有一个Bean实例，单例模式。</p>
+<p>prototype：每次调用getBean()从容器中获取Bean，返回新的实例。</p>
+<p>剩下三种是与web环境相关的作用域，仅适用于webApplicationContext环境：</p>
+<p>request：每次http请求都会创建一个新的Bean。</p>
+<p>session：同一个http session共享一个Bean。</p>
+<p>globalSession：同一个全局session共享一个Bean。</p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923215802825.png" alt="image-20200923215802825"></p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923215914270.png" alt="image-20200923215914270"></p>
+<p>同一个打开的浏览器内请求多次结果：</p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923220118998.png" alt="image-20200923220118998"></p>
+<p>换一个浏览器再次请求：</p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923220332843.png" alt="image-20200923220332843"></p>
+<p>我们看到返回了新的Bean；</p>
+<p>在spring-web-5.2.5中，globalSession作用域名为application</p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923221701479.png" alt="image-20200923221701479"></p>
+<h2 id="Bean的生命周期"><a href="#Bean的生命周期" class="headerlink" title="Bean的生命周期"></a>Bean的生命周期</h2><p>spring中的bean从beanDifinition阶段开始，主要经历下面几个过程：</p>
+<ul>
+<li><p>调用instantiationAwareBeanPostProcessor的postProcessBeforeInstantiation()方法</p>
+</li>
+<li><p>实例化</p>
+</li>
+<li><p>调用instantiationAwareBeanPostProcessor的postProcessAfterInstantiation()方法</p>
+</li>
+<li><p>属性填充</p>
+</li>
+<li><p>BeanNameAware/BeanFactoryAware(这两个接口是为了让bean获取自己的beanName和所属的beanfactory)</p>
+</li>
+<li><p>BeanPostProcessor的前置处理,通过postProcessBeforeInitialization()在bean的初始化前提供回调入口</p>
+</li>
+<li><p>InitializingBean的afterPropertiesSet()方法</p>
+</li>
+<li><p>调用init-method 方法</p>
+</li>
+<li><p>BeanPostProcessor的后置处理,通过postProcessAfterInitialization()在bean的初始化后提供回调入口</p>
+</li>
+<li><p>(以下流程只针对singleton的bean,prototype的bean交由调用方处理，不再由容器负责)</p>
+</li>
+<li><p>DisposableBean的destroy()方法</p>
+</li>
+<li><p>调用destroy-method 方法</p>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/13/java8-Optional/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/08/13/java8-Optional/" itemprop="url">java8-Optional</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-08-13T00:08:47+08:00">
+                2020-08-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java8/" itemprop="url" rel="index">
+                    <span itemprop="name">java8</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>作为java开发，相信NPE是大家经常碰到的异常，它总是不经意的出现，着实让人头疼。java8引入了一个新类——java.util.Optional<T>，使用它可以帮助我们解决各种null引发的问题。让我们一起来看看吧。</T></p>
+<h2 id="创建Optional对象"><a href="#创建Optional对象" class="headerlink" title="创建Optional对象"></a>创建Optional对象</h2><p>Optional利用泛型，对类做了一层封装。创建Optional对象不是通过new，因为该类的两个构造函数是私有的</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">  <span class="comment">/**</span></span><br><span class="line"><span class="comment">   * Constructs an empty instance.</span></span><br><span class="line"><span class="comment">   *</span></span><br><span class="line"><span class="comment">   * <span class="doctag">@implNote</span> Generally only one empty instance, &#123;<span class="doctag">@link</span> Optional#EMPTY&#125;,</span></span><br><span class="line"><span class="comment">   * should exist per VM.</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Optional</span><span class="params">()</span> </span>&#123;</span><br><span class="line">      <span class="keyword">this</span>.value = <span class="keyword">null</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">   * Constructs an instance with the value present.</span></span><br><span class="line"><span class="comment">   *</span></span><br><span class="line"><span class="comment">   * <span class="doctag">@param</span> value the non-null value to be present</span></span><br><span class="line"><span class="comment">   * <span class="doctag">@throws</span> NullPointerException if value is null</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Optional</span><span class="params">(T value)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">this</span>.value = Objects.requireNonNull(value);</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>创建Optional对象有三种方式：</p>
+<p>1.声明一个空的Optional</p>
+<p>​    Optional<Car> optCar = Optional.empty(); </Car></p>
+<p>2.依据一个非空值创建Optional</p>
+<p>​    Optional<Car> optCar = Optional.of(car); </Car></p>
+<p>​    但是当传入的car为null时，会立刻抛出NullPointerException。</p>
+<p>3.可接受null的Optional</p>
+<p>​    Optional<Car> optCar = Optional.ofNullable(car);</Car></p>
+<h2 id="使用map方法"><a href="#使用map方法" class="headerlink" title="使用map方法"></a>使用map方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> </span>&#123; </span><br><span class="line"> <span class="keyword">private</span> Optional&lt;Car&gt; car; </span><br><span class="line"> <span class="function"><span class="keyword">public</span> Optional&lt;Car&gt; <span class="title">getCar</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> car; &#125; </span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Car</span> </span>&#123; </span><br><span class="line"> <span class="keyword">private</span> Optional&lt;Insurance&gt; insurance; </span><br><span class="line"> <span class="function"><span class="keyword">public</span> Optional&lt;Insurance&gt; <span class="title">getInsurance</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> insurance; &#125; </span><br><span class="line">&#125; </span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Insurance</span> </span>&#123; </span><br><span class="line"> <span class="keyword">private</span> String name; </span><br><span class="line"> <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> name; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>代码2-1</p>
+<p>使用map方法和Stream流差不多</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Optional&lt;Insurance&gt; optInsurance = Optional.ofNullable(insurance); </span><br><span class="line">Optional&lt;String&gt; name = optInsurance.map(Insurance::getName);</span><br></pre></td></tr></table></figure>
+
+<p>但是我们不能用map进行链式调用，就像这样</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Optional&lt;Person&gt; optPerson = Optional.of(person); </span><br><span class="line">Optional&lt;String&gt; name = </span><br><span class="line"> optPerson.map(Person::getCar) </span><br><span class="line"> .map(Car::getInsurance) </span><br><span class="line"> .map(Insurance::getName);</span><br></pre></td></tr></table></figure>
+
+<p>这是为什么呢？看一下map方法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span>&lt;U&gt; Optional&lt;U&gt; <span class="title">map</span><span class="params">(Function&lt;? <span class="keyword">super</span> T, ? extends U&gt; mapper)</span> </span>&#123;</span><br><span class="line">        Objects.requireNonNull(mapper);</span><br><span class="line">        <span class="keyword">if</span> (!isPresent())</span><br><span class="line">            <span class="keyword">return</span> empty();</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> Optional.ofNullable(mapper.apply(value));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<p>map方法传入参数Function，Function定义传入一个参数为T的父类（下界通配符），返回U的子类（上界通配符），这个具体我们不关心，重点是在map方法返回值在U上包了一层Optional，那Person::getCar 本身返回Optional<Car>，再包一层，就变成了Optional&lt;Optional<Car>&gt;,就不对劲了。</Car></Car></p>
+<h2 id="使用flatMap方法"><a href="#使用flatMap方法" class="headerlink" title="使用flatMap方法"></a>使用flatMap方法</h2><p>flatMap方法可以解决链式调用的问题，这个方法代码如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span>&lt;U&gt; Optional&lt;U&gt; <span class="title">flatMap</span><span class="params">(Function&lt;? <span class="keyword">super</span> T, Optional&lt;U&gt;&gt; mapper)</span> </span>&#123;</span><br><span class="line">      Objects.requireNonNull(mapper);</span><br><span class="line">      <span class="keyword">if</span> (!isPresent())</span><br><span class="line">          <span class="keyword">return</span> empty();</span><br><span class="line">      <span class="keyword">else</span> &#123;</span><br><span class="line">          <span class="keyword">return</span> Objects.requireNonNull(mapper.apply(value));</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>我们可以看到它和map方法的区别，它没有在Function的返回值上再用Optional封装一次</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">getCarInsuranceName</span><span class="params">(Optional&lt;Person&gt; person)</span> </span>&#123; </span><br><span class="line"> <span class="keyword">return</span> person.flatMap(Person::getCar) </span><br><span class="line"> .flatMap(Car::getInsurance) </span><br><span class="line"> .map(Insurance::getName) </span><br><span class="line"> .orElse(<span class="string">"Unknown"</span>); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p>Optional还有一些其他方法，列举一下：</p>
+<p>empty ：  返回一个空的 Optional 实例</p>
+<p>filter   ： 如果值存在并且满足提供的谓词，就返回包含该值的 Optional 对象；否则返回一个空的</p>
+<p>Optional 对象</p>
+<p>get ：如果该值存在，将该值用 Optional 封装返回，否则抛出一个 NoSuchElementException 异常</p>
+<p>ifPresent ：如果值存在，就执行使用该值的方法调用，否则什么也不做</p>
+<p>isPresent ：如果值存在就返回 true，否则返回 false</p>
+<p>of    :将指定值用 Optional 封装之后返回，如果该值为 null，则抛出一个 NullPointerException</p>
+<p>异常</p>
+<p>ofNullable    ：将指定值用 Optional 封装之后返回，如果该值为 null，则返回一个空的 Optional 对象</p>
+<p>orElse     ：如果有值则将其返回，否则返回一个默认值</p>
+<p>orElseGet     ：如果有值则将其返回，否则返回一个由指定的 Supplier 接口生成的值</p>
+<p>orElseThrow    ：如果有值则将其返回，否则抛出一个由指定的 Supplier 接口生成的异常</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/10/java%E9%9B%86%E5%90%88-Set/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/08/10/java%E9%9B%86%E5%90%88-Set/" itemprop="url">java集合-Set</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-08-10T22:38:25+08:00">
+                2020-08-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
+                    <span itemprop="name">java基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Set是java中的集合对象，用来存放一组无序且不重复的数据。</p>
+<p>Set主要实现类有HashSet、LinkedHashSet、TreeSet。</p>
+<p>下面通过例子来具体分析它们：</p>
+<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="一、HashSet"><a href="#一、HashSet" class="headerlink" title="一、HashSet"></a>一、HashSet</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jjm.javaLearn.set;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.HashSet;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestHashSet</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[]args)</span></span>&#123;</span><br><span class="line">        HashSet&lt;Object&gt; hashSet = <span class="keyword">new</span> HashSet&lt;&gt;();</span><br><span class="line">        hashSet.add(<span class="string">"1"</span>);</span><br><span class="line">        hashSet.add(<span class="string">"1"</span>);</span><br><span class="line">        hashSet.add(<span class="string">"4"</span>);</span><br><span class="line">        hashSet.add(<span class="string">"3"</span>);</span><br><span class="line">        hashSet.add(<span class="keyword">null</span>);</span><br><span class="line">        System.out.println(hashSet);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>输出结果：</p>
+<p><img src="/2020/08/10/java%E9%9B%86%E5%90%88-Set/1.png" alt="img"></p>
+<p>可以看到重复的数据没被放入set，打印出来的顺序也与放置进去的顺序不同，小结以下几点：</p>
+<p>1、HashSet是无序的</p>
+<p>2、允许插入null</p>
+<p>3、不支持存放重复数据</p>
+<p>4.是线程不安全的</p>
+<h3 id="二、LinkedHashSet"><a href="#二、LinkedHashSet" class="headerlink" title="二、LinkedHashSet"></a>二、LinkedHashSet</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jjm.javaLearn.set;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.LinkedHashSet;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestLinkedHashSet</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[]args)</span></span>&#123;</span><br><span class="line">        LinkedHashSet&lt;Object&gt; linkedHashSet = <span class="keyword">new</span> LinkedHashSet&lt;&gt;();</span><br><span class="line">        linkedHashSet.add(<span class="number">1</span>);</span><br><span class="line">        linkedHashSet.add(<span class="number">1</span>);</span><br><span class="line">        linkedHashSet.add(<span class="number">2</span>);</span><br><span class="line">        linkedHashSet.add(<span class="number">3</span>);</span><br><span class="line">        linkedHashSet.add(<span class="number">4</span>);</span><br><span class="line">        linkedHashSet.add(<span class="number">5</span>);</span><br><span class="line">        linkedHashSet.add(<span class="keyword">null</span>);</span><br><span class="line">        System.out.println(linkedHashSet);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>输出结果：</p>
+<p><img src="/2020/08/10/java%E9%9B%86%E5%90%88-Set/2.png" alt="img"></p>
+<p>总结以下LinkedHashSet：</p>
+<p>1、是有序的，放入取出和顺序相同</p>
+<p>2、支持插入null</p>
+<p>3、不能插入重复数据</p>
+<p>4、是非线程安全的</p>
+<p>5、使用链表维护插入顺序</p>
+<h3 id="三、TreeSet"><a href="#三、TreeSet" class="headerlink" title="三、TreeSet"></a>三、TreeSet</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jjm.javaLearn.set;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.TreeSet;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestTreeSet</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[]args)</span></span>&#123;</span><br><span class="line">        TreeSet treeSet = <span class="keyword">new</span> TreeSet();</span><br><span class="line">        treeSet.add(<span class="number">1</span>);</span><br><span class="line">        treeSet.add(<span class="number">1</span>);</span><br><span class="line">        treeSet.add(<span class="number">2</span>);</span><br><span class="line">        treeSet.add(<span class="number">3</span>);</span><br><span class="line">        treeSet.add(<span class="number">4</span>);</span><br><span class="line">        treeSet.add(<span class="number">5</span>);</span><br><span class="line">        treeSet.add(<span class="keyword">null</span>);</span><br><span class="line">        System.out.println(treeSet);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>输出结果：</p>
+<p><img src="/2020/08/10/java%E9%9B%86%E5%90%88-Set/3.png" alt="img"></p>
+<p>可以看到在插入null时报错了，我们知道TreeSet时SortedSet的唯一实现，通过Comparator接口来对对象进行排序，插入null报错因为null没实现Comparator接口，我们来写个例子验证下</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestTreeSet</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[]args)</span></span>&#123;</span><br><span class="line">        TreeSet treeSet = <span class="keyword">new</span> TreeSet(<span class="keyword">new</span> Comparator() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">compare</span><span class="params">(Object o1, Object o2)</span> </span>&#123;</span><br><span class="line">                <span class="keyword">if</span> (o1==<span class="keyword">null</span> &amp;&amp; o2==<span class="keyword">null</span>) &#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">        treeSet.add(<span class="keyword">null</span>);</span><br><span class="line">        System.out.println(treeSet);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>输出结果：</p>
+<p><img src="/2020/08/10/java%E9%9B%86%E5%90%88-Set/4.png" alt="img"></p>
+<p>可以看到null插入成功，因为TreeSet在执行add（）方法时，会调对象的comparate（）方法进行比较，放入TreeSet的对象需要实现Comparator接口，Java中的常用类比如String、Character等已经实现了Comparable接口’</p>
+<p>总结一下TreeSet：</p>
+<p>1、不允许插入重复数据</p>
+<p>2、使用红黑树实现，数据处于排序状态</p>
+<p>3、添加元素时会比较，所以最好是同一类对象</p>
+<p>所以我们可以自己定义Comparator，传入TreeSet的构造函数</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.jjm.javaLearn.set;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Comparator;</span><br><span class="line"><span class="keyword">import</span> java.util.TreeSet;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestTreeSet</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[]args)</span></span>&#123;</span><br><span class="line">        TreeSet treeSet = <span class="keyword">new</span> TreeSet(<span class="keyword">new</span> Comparator() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">compare</span><span class="params">(Object o1, Object o2)</span> </span>&#123;</span><br><span class="line">                Object a = o1;</span><br><span class="line">                Object b = o2;</span><br><span class="line">                <span class="keyword">if</span>(a.hashCode()&lt;b.hashCode())&#123;</span><br><span class="line">                    <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">                &#125;<span class="keyword">else</span> <span class="keyword">if</span>(a.hashCode()==b.hashCode())&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">                &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">        treeSet.add(<span class="string">"a"</span>);</span><br><span class="line">        treeSet.add(<span class="string">"c"</span>);</span><br><span class="line">        treeSet.add(<span class="string">"x"</span>);</span><br><span class="line">        treeSet.add(<span class="string">"b"</span>);</span><br><span class="line">        System.out.println(treeSet);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>ps：Comparable和Comparator区别</p>
+<ul>
+<li>一个类实现了 Comparable 接口，意味着该类的对象可以直接进行比较（排序），但比较（排序）的方式只有一种，很单一。</li>
+<li>一个类如果想要保持原样，又需要进行不同方式的比较（排序），就可以定制比较器（实现 Comparator 接口）。</li>
+</ul>
+<h2 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h2><h3 id="一、HashSet-1"><a href="#一、HashSet-1" class="headerlink" title="一、HashSet"></a>一、HashSet</h3><h4 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Constructs a new, empty set; the backing &lt;tt&gt;HashMap&lt;/tt&gt; instance has</span></span><br><span class="line"><span class="comment"> * default initial capacity (16) and load factor (0.75).</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">HashSet</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">transient</span> HashMap&lt;E,Object&gt; map;</span><br></pre></td></tr></table></figure>
+
+<p>可以看到HashSet内部是用HashMap来存储数据的</p>
+<h4 id="add"><a href="#add" class="headerlink" title="add"></a>add</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">add</span><span class="params">(E e)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> map.put(e, PRESENT)==<span class="keyword">null</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Dummy value to associate with an Object in the backing Map</span></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Object PRESENT = <span class="keyword">new</span> Object();</span><br></pre></td></tr></table></figure>
+
+<p>可以看到插入的元素存储为HashMap的key值，在HashMap中key是不会重复的，所以保证了Set中数据不会重复</p>
+<h4 id="remove"><a href="#remove" class="headerlink" title="remove"></a>remove</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">remove</span><span class="params">(Object o)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> map.remove(o)==PRESENT;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>直接调用map的remove方法</p>
+<h3 id="二、LinkedHashSet-1"><a href="#二、LinkedHashSet-1" class="headerlink" title="二、LinkedHashSet"></a>二、LinkedHashSet</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">LinkedHashSet</span><span class="params">(<span class="keyword">int</span> initialCapacity, <span class="keyword">float</span> loadFactor)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">super</span>(initialCapacity, loadFactor, <span class="keyword">true</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">LinkedHashSet</span><span class="params">(<span class="keyword">int</span> initialCapacity)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">super</span>(initialCapacity, .<span class="number">75f</span>, <span class="keyword">true</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">LinkedHashSet</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">super</span>(<span class="number">16</span>, .<span class="number">75f</span>, <span class="keyword">true</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>LinkedHashSet调用HashSet的私有构造器，他们只提供给LinkedHashSet使用，初始化一个LinkedHashMap作为存储数据的地方</p>
+<h3 id="三、TreeSet-1"><a href="#三、TreeSet-1" class="headerlink" title="三、TreeSet"></a><strong>三、TreeSet</strong></h3><h4 id="构造函数-1"><a href="#构造函数-1" class="headerlink" title="构造函数"></a>构造函数</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">TreeSet</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>(<span class="keyword">new</span> TreeMap&lt;E,Object&gt;());</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Constructs a set backed by the specified navigable map.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">TreeSet(NavigableMap&lt;E,Object&gt; m) &#123;</span><br><span class="line">    <span class="keyword">this</span>.m = m;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * The backing map.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">transient</span> NavigableMap&lt;E,Object&gt; m;</span><br></pre></td></tr></table></figure>
+
+<p>可以看到TreeSet内部使用TreeMap来存储数据，作为Map的key保存</p>
+<h4 id="add-1"><a href="#add-1" class="headerlink" title="add"></a>add</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">add</span><span class="params">(E e)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> m.put(e, PRESENT)==<span class="keyword">null</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>TreeMap中的顺序是通过Comparator接口来保证的，要有适用于存入key的Comparator实现类，或者存入的key本身实现了Comparable接口    </p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/10/java%E5%9F%BA%E7%A1%80-Map/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/08/10/java%E5%9F%BA%E7%A1%80-Map/" itemprop="url">java基础-Map</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-08-10T21:53:03+08:00">
+                2020-08-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
+                    <span itemprop="name">java基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Ｍａｐ是以键值对（ｋｅｙ／ｖａｌｕｅ）的形式来保存数据，ｋｅｙ和ｖａｌｕｅ具有映射关系。主要的ｍａｐ实现有HashMap,LinkedHashMap,Hashtable,WeakedHashMap和TreeMap</p>
+<h2 id="HashMap"><a href="#HashMap" class="headerlink" title="HashMap"></a>HashMap</h2><p>默认容量16，默认加载因子0.75f，hashmap中支持插入null作为key，key是唯一的，插入重复的key时，后插入的value会代替之前的value。我们还注意到插入的顺序和我们输出的顺序不一致，这是因为HashMap在插入key时，会通过计算hashcode来自己确定存储位置，所以是无序的。HashMap还可以以集合的形式返回所有的key，通过HashMap的keySet()可以对map的对象进行迭代。通过get（Object key）方法，可以获取到对应的value。</p>
+<h2 id="LinkedHashMap"><a href="#LinkedHashMap" class="headerlink" title="LinkedHashMap"></a>LinkedHashMap</h2><p>LinkedHashMap在HashMap的基础上，通过链表来维护插入的key的顺序，保证放入和取出的顺序是一致的。<br>因为需要维护插入的顺序，所以性能上没有HashMap好。</p>
+<h2 id="Hashtable"><a href="#Hashtable" class="headerlink" title="Hashtable"></a>Hashtable</h2><p>Hashtable在实例化的过程中就对table对象完成了初始化过程，默认容量为11，加载因子也是0.75f。Hashtable和HashMap的用法基本相同，区别在于Hashtable是线程安全的，不支持null作为key。</p>
+<h2 id="WeakedHashMap"><a href="#WeakedHashMap" class="headerlink" title="WeakedHashMap"></a>WeakedHashMap</h2><p> WeakedHashMap和HashMap的用法相同，区别的是WeakedHashMap中放的是弱引用</p>
+<h2 id="TreeMap"><a href="#TreeMap" class="headerlink" title="TreeMap"></a>TreeMap</h2><p>   对照TreeSet, TreeSet内部通过红黑树来存储数据，要求插入的对象都实现compator接口，依次来保证内部元素处于有序状态。TreeMap也是通过红黑树实现了内部对象的排序。<br>在实例化时，通过内部类直接重写compare（）方法，可以实现定制排序的效果。<br>*除非需要map中的对象总是处于有序状态，此时选择TreeMap，其他时候就应该尽量使用其他集合，因为排序会额外消耗时间。</p>
+<h2 id="HashMap和HashTable底层分析-jdk1-7"><a href="#HashMap和HashTable底层分析-jdk1-7" class="headerlink" title="HashMap和HashTable底层分析 jdk1.7"></a>HashMap和HashTable底层分析 jdk1.7</h2><h3 id="HashMap-1"><a href="#HashMap-1" class="headerlink" title="HashMap"></a>HashMap</h3><h4 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> * The default initial capacity - MUST be a power of two.</span><br><span class="line"> *&#x2F;</span><br><span class="line">static final int DEFAULT_INITIAL_CAPACITY &#x3D; 1 &lt;&lt; 4; &#x2F;&#x2F; aka 16</span><br><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> * The load factor used when none specified in constructor.</span><br><span class="line"> *&#x2F;</span><br><span class="line">static final float DEFAULT_LOAD_FACTOR &#x3D; 0.75f;</span><br><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> * The next size value at which to resize (capacity * load factor).</span><br><span class="line"> * @serial</span><br><span class="line"> *&#x2F;</span><br><span class="line">&#x2F;&#x2F; If table &#x3D;&#x3D; EMPTY_TABLE then this is the initial capacity at which the</span><br><span class="line">&#x2F;&#x2F; table will be created when inflated.</span><br><span class="line">int threshold;</span><br></pre></td></tr></table></figure>
+
+<p>HashMap有三个构造方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">public HashMap() &#123;</span><br><span class="line">    this(DEFAULT_INITIAL_CAPACITY, DEFAULT_LOAD_FACTOR);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public HashMap(int initialCapacity) &#123;</span><br><span class="line">    this(initialCapacity, DEFAULT_LOAD_FACTOR);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public HashMap(int initialCapacity, float loadFactor) &#123;</span><br><span class="line">    if (initialCapacity &lt; 0)</span><br><span class="line">        throw new IllegalArgumentException(&quot;Illegal initial capacity: &quot; +</span><br><span class="line">                                           initialCapacity);</span><br><span class="line">    if (initialCapacity &gt; MAXIMUM_CAPACITY)</span><br><span class="line">        initialCapacity &#x3D; MAXIMUM_CAPACITY;</span><br><span class="line">    if (loadFactor &lt;&#x3D; 0 || Float.isNaN(loadFactor))</span><br><span class="line">        throw new IllegalArgumentException(&quot;Illegal load factor: &quot; +</span><br><span class="line">                                           loadFactor);</span><br><span class="line"></span><br><span class="line">    this.loadFactor &#x3D; loadFactor;</span><br><span class="line">    threshold &#x3D; initialCapacity;</span><br><span class="line">    init();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>可以看到，最终都调用最后一个构造方法，里面只是对初始化容量initialCapacity、负载因子loadFactor、扩容因子threshold做了简单的赋值</p>
+<h4 id="新增"><a href="#新增" class="headerlink" title="新增"></a>新增</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">public V put(K key, V value) &#123;</span><br><span class="line">    &#x2F;&#x2F;判断数组是否为空，为空扩容</span><br><span class="line">    if (table &#x3D;&#x3D; EMPTY_TABLE) &#123;</span><br><span class="line">        inflateTable(threshold);</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;判断key是否为null，null作为key特殊处理</span><br><span class="line">    if (key &#x3D;&#x3D; null)</span><br><span class="line">        return putForNullKey(value);</span><br><span class="line">        &#x2F;&#x2F;计算key的hash</span><br><span class="line">    int hash &#x3D; hash(key);</span><br><span class="line">    &#x2F;&#x2F;计算hash桶数组索引</span><br><span class="line">    int i &#x3D; indexFor(hash, table.length);</span><br><span class="line">    &#x2F;&#x2F;遍历链表key存在则覆盖，并返回旧value</span><br><span class="line">    for (Entry&lt;K,V&gt; e &#x3D; table[i]; e !&#x3D; null; e &#x3D; e.next) &#123;</span><br><span class="line">        Object k;</span><br><span class="line">        if (e.hash &#x3D;&#x3D; hash &amp;&amp; ((k &#x3D; e.key) &#x3D;&#x3D; key || key.equals(k))) &#123;</span><br><span class="line">            V oldValue &#x3D; e.value;</span><br><span class="line">            e.value &#x3D; value;</span><br><span class="line">            e.recordAccess(this);</span><br><span class="line">            return oldValue;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    modCount++;</span><br><span class="line">    &#x2F;&#x2F;不存在key则添加</span><br><span class="line">    addEntry(hash, key, value, i);</span><br><span class="line">    return null;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>transient Entry&lt;K,V&gt;[] table = (Entry&lt;K,V&gt;[]) EMPTY_TABLE;</p>
+</blockquote>
+<p>table是entry数组，entry是HashMap的内部类，来保存键值对类型的数据</p>
+<p>inflate是膨胀的意思，这个方法里重新给扩容因子赋值，默认的值是16，这个方法里初始化数组</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">private void inflateTable(int toSize) &#123;</span><br><span class="line">    &#x2F;&#x2F; Find a power of 2 &gt;&#x3D; toSize</span><br><span class="line">    int capacity &#x3D; roundUpToPowerOf2(toSize);</span><br><span class="line"></span><br><span class="line">    threshold &#x3D; (int) Math.min(capacity * loadFactor, MAXIMUM_CAPACITY + 1);</span><br><span class="line">    table &#x3D; new Entry[capacity];</span><br><span class="line">    initHashSeedAsNeeded(capacity);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="put-null"><a href="#put-null" class="headerlink" title="put null"></a>put null</h5><p>hashMap支持null作为key，是在putForNullKey()方法做了处理：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">private V putForNullKey(V value) &#123;</span><br><span class="line">    for (Entry&lt;K,V&gt; e &#x3D; table[0]; e !&#x3D; null; e &#x3D; e.next) &#123;</span><br><span class="line">        if (e.key &#x3D;&#x3D; null) &#123;</span><br><span class="line">            V oldValue &#x3D; e.value;</span><br><span class="line">            e.value &#x3D; value;</span><br><span class="line">            e.recordAccess(this);</span><br><span class="line">            return oldValue;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    modCount++;</span><br><span class="line">    addEntry(0, null, value, 0);</span><br><span class="line">    return null;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>可以看到如果key为null，会去table第一个位置，开始遍历该位置的链表，找到key为null的，将其value替换，并返回旧value，如果遍历完没有发现key为null的entry，则执行addEntry()方法，这个方法在put非null讲</p>
+<p>我们继续看put方法下面的代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">int hash &#x3D; hash(key);</span><br><span class="line">    int i &#x3D; indexFor(hash, table.length);</span><br><span class="line">    for (Entry&lt;K,V&gt; e &#x3D; table[i]; e !&#x3D; null; e &#x3D; e.next) &#123;</span><br><span class="line">        Object k;</span><br><span class="line">        if (e.hash &#x3D;&#x3D; hash &amp;&amp; ((k &#x3D; e.key) &#x3D;&#x3D; key || key.equals(k))) &#123;</span><br><span class="line">            V oldValue &#x3D; e.value;</span><br><span class="line">            e.value &#x3D; value;</span><br><span class="line">            e.recordAccess(this);</span><br><span class="line">            return oldValue;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    modCount++;</span><br><span class="line">    addEntry(hash, key, value, i);</span><br><span class="line">    return null;</span><br></pre></td></tr></table></figure>
+
+<p>非null的key-value处理，先计算key的hash值，通过hash值和数组容量来计算出存储的位置，从该位置链表的第一个entry对象开始比较，key是否相同，是就替换value，返回旧value，不是就继续往下比较,这里要说一下indexfor（）:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> * Returns index for hash code h.</span><br><span class="line"> *&#x2F;</span><br><span class="line">static int indexFor(int h, int length) &#123;</span><br><span class="line">    &#x2F;&#x2F; assert Integer.bitCount(length) &#x3D;&#x3D; 1 : &quot;length must be a non-zero power of 2&quot;;</span><br><span class="line">    return h &amp; (length-1);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>这里就涉及到一个问题，数组容量为什么要是2的n次方</strong></p>
+<p>因为2的n次方减一，各位都是1，和hashcode按位与，能快速拿到数组的下标（hashcode的低位），并且分布均匀。</p>
+<p>如果没有key相同的，就进入addEntry方法，传入hash值、key、value、计算出的存储位置下标：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">void addEntry(int hash, K key, V value, int bucketIndex) &#123;</span><br><span class="line">    if ((size &gt;&#x3D; threshold) &amp;&amp; (null !&#x3D; table[bucketIndex])) &#123;</span><br><span class="line">        resize(2 * table.length);</span><br><span class="line">        hash &#x3D; (null !&#x3D; key) ? hash(key) : 0;</span><br><span class="line">        bucketIndex &#x3D; indexFor(hash, table.length);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    createEntry(hash, key, value, bucketIndex);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>先做判断当满足当前键值对个数大于等于扩容因子，并且存储位置不为null，则扩容一倍的空间，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">void createEntry(int hash, K key, V value, int bucketIndex) &#123;</span><br><span class="line">    Entry&lt;K,V&gt; e &#x3D; table[bucketIndex];</span><br><span class="line">    table[bucketIndex] &#x3D; new Entry&lt;&gt;(hash, key, value, e);</span><br><span class="line">    size++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后在头部插入新entry</p>
+<h4 id="扩容"><a href="#扩容" class="headerlink" title="扩容"></a>扩容</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> * Rehashes the contents of this map into a new array with a</span><br><span class="line"> * larger capacity.  This method is called automatically when the</span><br><span class="line"> * number of keys in this map reaches its threshold.</span><br><span class="line"> *</span><br><span class="line"> * If current capacity is MAXIMUM_CAPACITY, this method does not</span><br><span class="line"> * resize the map, but sets threshold to Integer.MAX_VALUE.</span><br><span class="line"> * This has the effect of preventing future calls.</span><br><span class="line"> *</span><br><span class="line"> * @param newCapacity the new capacity, MUST be a power of two;</span><br><span class="line"> *        must be greater than current capacity unless current</span><br><span class="line"> *        capacity is MAXIMUM_CAPACITY (in which case value</span><br><span class="line"> *        is irrelevant).</span><br><span class="line"> *&#x2F;</span><br><span class="line">void resize(int newCapacity) &#123;</span><br><span class="line">    Entry[] oldTable &#x3D; table;</span><br><span class="line">    int oldCapacity &#x3D; oldTable.length;</span><br><span class="line">    if (oldCapacity &#x3D;&#x3D; MAXIMUM_CAPACITY) &#123;</span><br><span class="line">        threshold &#x3D; Integer.MAX_VALUE;</span><br><span class="line">        return;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    Entry[] newTable &#x3D; new Entry[newCapacity];</span><br><span class="line">    transfer(newTable, initHashSeedAsNeeded(newCapacity));</span><br><span class="line">    table &#x3D; newTable;</span><br><span class="line">    threshold &#x3D; (int)Math.min(newCapacity * loadFactor, MAXIMUM_CAPACITY + 1);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>创建新的entry空数组，遍历原entry数组，把所有的entry重新hash到新数组</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> * Transfers all entries from current table to newTable.</span><br><span class="line"> *&#x2F;</span><br><span class="line">void transfer(Entry[] newTable, boolean rehash) &#123;</span><br><span class="line">    int newCapacity &#x3D; newTable.length;</span><br><span class="line">    for (Entry&lt;K,V&gt; e : table) &#123;</span><br><span class="line">        while(null !&#x3D; e) &#123;</span><br><span class="line">            Entry&lt;K,V&gt; next &#x3D; e.next;</span><br><span class="line">            if (rehash) &#123;</span><br><span class="line">                e.hash &#x3D; null &#x3D;&#x3D; e.key ? 0 : hash(e.key);</span><br><span class="line">            &#125;</span><br><span class="line">            int i &#x3D; indexFor(e.hash, newCapacity);</span><br><span class="line">            e.next &#x3D; newTable[i];</span><br><span class="line">            newTable[i] &#x3D; e;</span><br><span class="line">            e &#x3D; next;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="get"><a href="#get" class="headerlink" title="get"></a>get</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">public V get(Object key) &#123;</span><br><span class="line">    if (key &#x3D;&#x3D; null)</span><br><span class="line">        return getForNullKey();</span><br><span class="line">    Entry&lt;K,V&gt; entry &#x3D; getEntry(key);</span><br><span class="line"></span><br><span class="line">    return null &#x3D;&#x3D; entry ? null : entry.getValue();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果key为null，则去table第一个位置找key为null的entry并返回，map里键值对个数为0直接返回null</p>
+<p>如果key不为null，则通过key的hash和数组大小计算出存储位置，去找key相等的，并返回entry</p>
+<h4 id="哈希冲突"><a href="#哈希冲突" class="headerlink" title="哈希冲突"></a>哈希冲突</h4><p>当多个Key对象，通过计算得到了同一个index的情况，就产生hash冲突</p>
+<p>开发地址法：当冲突时，通过某种方法查找下一个空位，并将数据填入，而不再用哈希函数得到                               的数组index，某种方法，可以有很多种，有挨着找（线性探测），跳着找（平方探测等）</p>
+<p>再哈希法：首先定义很多hash函数，当发生哈希冲突时，就再使用另一个hash函数计算另一个哈希值，直到不冲突为止</p>
+<p>链地址法：将所有哈希地址一样的元素，构成一个称为链表，因而查找、插入和删除主要在链表中进行，链地址法适用于经常进行插入和删除的情况</p>
+<p>HashMap解决冲突的办法是链地址法</p>
+<h3 id="HashTable"><a href="#HashTable" class="headerlink" title="HashTable"></a>HashTable</h3><p>看下几个构造函数:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">public Hashtable() &#123;</span><br><span class="line">    this(11, 0.75f);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public Hashtable(int initialCapacity) &#123;</span><br><span class="line">    this(initialCapacity, 0.75f);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public Hashtable(int initialCapacity, float loadFactor) &#123;</span><br><span class="line">    if (initialCapacity &lt; 0)</span><br><span class="line">        throw new IllegalArgumentException(&quot;Illegal Capacity: &quot;+</span><br><span class="line">                                           initialCapacity);</span><br><span class="line">    if (loadFactor &lt;&#x3D; 0 || Float.isNaN(loadFactor))</span><br><span class="line">        throw new IllegalArgumentException(&quot;Illegal Load: &quot;+loadFactor);</span><br><span class="line"></span><br><span class="line">    if (initialCapacity&#x3D;&#x3D;0)</span><br><span class="line">        initialCapacity &#x3D; 1;</span><br><span class="line">    this.loadFactor &#x3D; loadFactor;</span><br><span class="line">    table &#x3D; new Entry[initialCapacity];</span><br><span class="line">    threshold &#x3D; (int)Math.min(initialCapacity * loadFactor, MAX_ARRAY_SIZE + 1);</span><br><span class="line">    initHashSeedAsNeeded(initialCapacity);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>可以看到Hashtable初始化过程中，对table数组初始化，默认容量11，负载因子0.75f</p>
+<h4 id="put"><a href="#put" class="headerlink" title="put"></a>put</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">public synchronized V put(K key, V value) &#123;</span><br><span class="line">    &#x2F;&#x2F; Make sure the value is not null</span><br><span class="line">    if (value &#x3D;&#x3D; null) &#123;</span><br><span class="line">        throw new NullPointerException();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; Makes sure the key is not already in the hashtable.</span><br><span class="line">    Entry tab[] &#x3D; table;</span><br><span class="line">    int hash &#x3D; hash(key);</span><br><span class="line">    int index &#x3D; (hash &amp; 0x7FFFFFFF) % tab.length;</span><br><span class="line">    for (Entry&lt;K,V&gt; e &#x3D; tab[index] ; e !&#x3D; null ; e &#x3D; e.next) &#123;</span><br><span class="line">        if ((e.hash &#x3D;&#x3D; hash) &amp;&amp; e.key.equals(key)) &#123;</span><br><span class="line">            V old &#x3D; e.value;</span><br><span class="line">            e.value &#x3D; value;</span><br><span class="line">            return old;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    modCount++;</span><br><span class="line">    if (count &gt;&#x3D; threshold) &#123;</span><br><span class="line">        &#x2F;&#x2F; Rehash the table if the threshold is exceeded</span><br><span class="line">        rehash();</span><br><span class="line"></span><br><span class="line">        tab &#x3D; table;</span><br><span class="line">        hash &#x3D; hash(key);</span><br><span class="line">        index &#x3D; (hash &amp; 0x7FFFFFFF) % tab.length;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; Creates the new entry.</span><br><span class="line">    Entry&lt;K,V&gt; e &#x3D; tab[index];</span><br><span class="line">    tab[index] &#x3D; new Entry&lt;&gt;(hash, key, value, e);</span><br><span class="line">    count++;</span><br><span class="line">    return null;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>key和value都不能为null</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/06/27/java8-Stream%E4%BD%BF%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/06/27/java8-Stream%E4%BD%BF%E7%94%A8/" itemprop="url">java8 Stream使用</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-06-27T22:42:57+08:00">
+                2020-06-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java8/" itemprop="url" rel="index">
+                    <span itemprop="name">java8</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="流介绍"><a href="#流介绍" class="headerlink" title="流介绍"></a>流介绍</h2><p>流是Java1.8提供的新API，它允许你以声明的方式处理数据集合（直接通过查询语句表达，不需要编写实现），你可以把它看作遍历数据集的高级迭代器。此外，流还可以对数据进行并行处理。流的定义用一句话概括就是：从支持数据处理的源生成的元素序列。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/12/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/04/12/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" itemprop="url">设计模式-单例模式</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-12T14:42:35+08:00">
+                2020-04-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" itemprop="url" rel="index">
+                    <span itemprop="name">设计模式</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="单例模式"><a href="#单例模式" class="headerlink" title="单例模式"></a>单例模式</h1><h2 id="一、单例模式描述"><a href="#一、单例模式描述" class="headerlink" title="一、单例模式描述"></a>一、单例模式描述</h2><p>单例模式(single pattern)是java中最简单的设计模式之一，它是一种创建型模式。指一个类只有一个实例，且该类能自行创建这个实例的一种模式。</p>
+<h2 id="二、单例模式代码实现"><a href="#二、单例模式代码实现" class="headerlink" title="二、单例模式代码实现"></a>二、单例模式代码实现</h2><p>编写单例模式的代码分为三步：</p>
+<ul>
+<li><p>构造函数私有化</p>
+</li>
+<li><p>在类的内部创建实例</p>
+</li>
+<li><p>提供获取唯一实例的方法</p>
+<h3 id="2-1-饿汉式"><a href="#2-1-饿汉式" class="headerlink" title="2.1 饿汉式"></a>2.1 饿汉式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">public class Teacher &#123;</span><br><span class="line">    private static final Teacher teacher &#x3D; new Teacher();</span><br><span class="line"></span><br><span class="line">    private Teacher()&#123;&#125;</span><br><span class="line"></span><br><span class="line">    public static Teacher getInstance()&#123;</span><br><span class="line">        return teacher;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[]args)&#123;</span><br><span class="line">        for (int i &#x3D; 0; i &lt; 10; i++) &#123;</span><br><span class="line">            new Thread(()-&gt; System.out.println(Teacher.getInstance())).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>优点：没有加锁，执行效率会提高。</p>
+<p>缺点：类加载时就创建了对象，会浪费内存</p>
+<h3 id="2-2-懒汉式"><a href="#2-2-懒汉式" class="headerlink" title="2.2 懒汉式"></a>2.2 懒汉式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">public class Teacher &#123;</span><br><span class="line">    private static Teacher teacher;</span><br><span class="line"></span><br><span class="line">    private Teacher()&#123;&#125;</span><br><span class="line"></span><br><span class="line">    public static synchronized Teacher getInstance()&#123;</span><br><span class="line">            if(teacher &#x3D;&#x3D; null)&#123;</span><br><span class="line">                teacher &#x3D; new Teacher();</span><br><span class="line">            &#125;</span><br><span class="line">        return teacher;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[]args)&#123;</span><br><span class="line">        for (int i &#x3D; 0; i &lt; 10; i++) &#123;</span><br><span class="line">            new Thread(()-&gt; System.out.println(Teacher.getInstance())).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-3-双重校验锁（懒汉式）"><a href="#2-3-双重校验锁（懒汉式）" class="headerlink" title="2.3 双重校验锁（懒汉式）"></a>2.3 双重校验锁（懒汉式）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">public class Teacher &#123;</span><br><span class="line">    private static volatile Teacher teacher;</span><br><span class="line"></span><br><span class="line">    private Teacher()&#123;&#125;</span><br><span class="line"></span><br><span class="line">    public static Teacher getInstance()&#123;</span><br><span class="line">        if(teacher &#x3D;&#x3D; null)&#123;                   &#x2F;&#x2F;判空为了提高性能</span><br><span class="line">            &#x2F;&#x2F;缩小锁的范围，提高性能</span><br><span class="line">            synchronized (Teacher.class)&#123;</span><br><span class="line">                if(teacher &#x3D;&#x3D; null)&#123;</span><br><span class="line">                    teacher &#x3D; new Teacher(); &#x2F;&#x2F;不是原子操作</span><br><span class="line">                    &#x2F;&#x2F;所以在多线程下可能出现，线程拿到未初始化完全的Teacher实例，导致程序的					  异常，所以需要加上volatile关键字</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return teacher;</span><br><span class="line">    &#125;</span><br><span class="line">，</span><br><span class="line">    public static void main(String[]args)&#123;</span><br><span class="line">        for (int i &#x3D; 0; i &lt; 10; i++) &#123;</span><br><span class="line">            new Thread(()-&gt; System.out.println(Teacher.getInstance())).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-4-静态内部类（懒汉式）"><a href="#2-4-静态内部类（懒汉式）" class="headerlink" title="2.4 静态内部类（懒汉式）"></a>2.4 静态内部类（懒汉式）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">public class Teacher &#123;</span><br><span class="line"></span><br><span class="line">    private static class TeacherHolder&#123;</span><br><span class="line">        private static final Teacher teacher &#x3D; new Teacher();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    private Teacher()&#123;&#125;</span><br><span class="line"></span><br><span class="line">    public static final Teacher getInstance()&#123;</span><br><span class="line">        return TeacherHolder.teacher;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[]args)&#123;</span><br><span class="line">        for (int i &#x3D; 0; i &lt; 10; i++) &#123;</span><br><span class="line">            new Thread(()-&gt; System.out.println(Teacher.getInstance())).start();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>当线程调用getInstance()，会使TeacherHolder被加载和初始化，此时静态初始化器将执行Teacher初始化操作。（延迟初始化）</p>
+<p>利用了 classloader 机制来保证初始化 teacher时只有一个线程</p>
+</li>
+</ul>
+<h3 id="2-5-枚举方式"><a href="#2-5-枚举方式" class="headerlink" title="2.5 枚举方式"></a>2.5 枚举方式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">public enum Teacher &#123;</span><br><span class="line">    TEACHER,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>推荐使用静态内部类或者枚举的方式</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/08/java%E5%9F%BA%E7%A1%80-List/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/04/08/java%E5%9F%BA%E7%A1%80-List/" itemprop="url">java基础-List</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-08T22:30:44+08:00">
+                2020-04-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
+                    <span itemprop="name">java基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/2020/04/08/java%E5%9F%BA%E7%A1%80-List/ArrayList.png" alt="img"></p>
+<p>list主要实现有ArrayList,LinkedList,Vectory和Stack</p>
+<h1 id="ArrayList"><a href="#ArrayList" class="headerlink" title="ArrayList"></a>ArrayList</h1><h2 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">ArrayList</span><span class="params">(<span class="keyword">int</span> initialCapacity)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">super</span>();</span><br><span class="line">    <span class="keyword">if</span> (initialCapacity &lt; <span class="number">0</span>)</span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="string">"Illegal Capacity: "</span>+</span><br><span class="line">                                           initialCapacity);</span><br><span class="line">    <span class="keyword">this</span>.elementData = <span class="keyword">new</span> Object[initialCapacity];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Constructs an empty list with an initial capacity of ten.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">ArrayList</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">super</span>();</span><br><span class="line">    <span class="keyword">this</span>.elementData = EMPTY_ELEMENTDATA;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//默认容量的设置在没有指定容量，第一次放进元素时设置</span></span><br></pre></td></tr></table></figure>
+
+<p>默认容量10，在没有指定容量的情况下，第一次放进元素时设置</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Shared empty array instance used for empty instances.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Object[] EMPTY_ELEMENTDATA = &#123;&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Shared empty array instance used for default sized empty instances. We</span></span><br><span class="line"><span class="comment"> * distinguish this from EMPTY_ELEMENTDATA to know how much to inflate when</span></span><br><span class="line"><span class="comment"> * first element is added.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = &#123;&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>DEFAULTCAPACITY_EMPTY_ELEMENTDATA 用以区分是否从无参构造进来，并在第一次放元素时设置容量10</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">ensureCapacityInternal</span><span class="params">(<span class="keyword">int</span> minCapacity)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) &#123;</span><br><span class="line">        minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    ensureExplicitCapacity(minCapacity);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>当数组满了，就扩容1.5倍</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">grow</span><span class="params">(<span class="keyword">int</span> minCapacity)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// overflow-conscious code</span></span><br><span class="line">    <span class="keyword">int</span> oldCapacity = elementData.length;</span><br><span class="line">    <span class="keyword">int</span> newCapacity = oldCapacity + (oldCapacity &gt;&gt; <span class="number">1</span>);</span><br><span class="line">    <span class="keyword">if</span> (newCapacity - minCapacity &lt; <span class="number">0</span>)</span><br><span class="line">        newCapacity = minCapacity;</span><br><span class="line">    <span class="keyword">if</span> (newCapacity - MAX_ARRAY_SIZE &gt; <span class="number">0</span>)</span><br><span class="line">        newCapacity = hugeCapacity(minCapacity);</span><br><span class="line">    <span class="comment">// minCapacity is usually close to size, so this is a win:</span></span><br><span class="line">    elementData = Arrays.copyOf(elementData, newCapacity);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Java中set，list和queue都实现了iterable接口，代表这些集合对象都可以用迭代器来对集合中的数据进行迭代。在list中，他有一个自己独有的迭代器，listiterator，和iterator相比，它还支持往前迭代。</p>
+<p>arrayList判断数据是否相同是equals（），是返回true，比如remove（）：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">remove</span><span class="params">(Object o)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (o == <span class="keyword">null</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> index = <span class="number">0</span>; index &lt; size; index++)</span><br><span class="line">            <span class="keyword">if</span> (elementData[index] == <span class="keyword">null</span>) &#123;</span><br><span class="line">                fastRemove(index);</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> index = <span class="number">0</span>; index &lt; size; index++)</span><br><span class="line">        <span class="comment">//here</span></span><br><span class="line">            <span class="keyword">if</span> (o.equals(elementData[index])) &#123;</span><br><span class="line">                fastRemove(index);</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>remove操作最后调用System.arraycopy方法，将被删除元素之后的元素复制到原数组，和前面的拼接，将最后位置置null，等待gc处理</p>
+<p>至于get(int)、set(int,E)，直接通过数组下标即可</p>
+<p>1.内部用数组实现，默认容量是10，每次扩容1.5倍，调用的是Arrays.copyOf(旧数组，新容量)</p>
+<p>2.是有序的，通过索引直接操作数据</p>
+<p>3.是线程不安全的</p>
+<h1 id="LinkedList"><a href="#LinkedList" class="headerlink" title="LinkedList"></a>LinkedList</h1><p>LinkedList同时实现list和Deque接口，所以它也同时具有了list和queue的特点，它既有索引，是一个list，同时也是一个双向队列，所有它的操作方式也比较多样，list和queue的都可以用</p>
+<p>内部类Node对象最为重要，它组成了LinkedList集合的整个链表，分别指向上一个点、下一个结点，存储着集合中的元素；</p>
+<h2 id="get"><a href="#get" class="headerlink" title="get"></a>get</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> E <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">    checkElementIndex(index);</span><br><span class="line">    <span class="keyword">return</span> node(index).item;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Node&lt;E&gt; <span class="title">node</span><span class="params">(<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// assert isElementIndex(index);</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (index &lt; (size &gt;&gt; <span class="number">1</span>)) &#123;</span><br><span class="line">        Node&lt;E&gt; x = first;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; index; i++)</span><br><span class="line">            x = x.next;</span><br><span class="line">        <span class="keyword">return</span> x;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        Node&lt;E&gt; x = last;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = size - <span class="number">1</span>; i &gt; index; i--)</span><br><span class="line">            x = x.prev;</span><br><span class="line">        <span class="keyword">return</span> x;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>先判断索引有没有越界，然后再将索引和集合大小的1/2比较，若小于，则从头开始循环遍历到index处，返回该位置的node，反之，则从后往前遍历</p>
+<h2 id="remove"><a href="#remove" class="headerlink" title="remove"></a>remove</h2><p>根据下标和对象删除元素的remove方法，最后调用的都是unlink（）方法</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">E <span class="title">unlink</span><span class="params">(Node&lt;E&gt; x)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// assert x != null;</span></span><br><span class="line">    <span class="keyword">final</span> E element = x.item;<span class="comment">//被删除节点的元素E</span></span><br><span class="line">    <span class="keyword">final</span> Node&lt;E&gt; next = x.next;<span class="comment">//被删除节点的后指针节点</span></span><br><span class="line">    <span class="keyword">final</span> Node&lt;E&gt; prev = x.prev;<span class="comment">//被删除节点的前指针节点</span></span><br><span class="line">    <span class="comment">//如果前指针节点为空</span></span><br><span class="line">    <span class="keyword">if</span> (prev == <span class="keyword">null</span>) &#123;</span><br><span class="line">        first = next;<span class="comment">//将后指针节点设为头节点</span></span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        prev.next = next;<span class="comment">//前置节点的尾部指向被删除节点的后指针节点</span></span><br><span class="line">        x.prev = <span class="keyword">null</span>;<span class="comment">//被删除节点的前节点设为null</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (next == <span class="keyword">null</span>) &#123;</span><br><span class="line">        last = prev;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        next.prev = prev;</span><br><span class="line">        x.next = <span class="keyword">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    x.item = <span class="keyword">null</span>;</span><br><span class="line">    size--;</span><br><span class="line">    modCount++;</span><br><span class="line">    <span class="keyword">return</span> element;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>add(e)方法调用的linkLast(e),其实就是加入一个新node，对前节点（若不为null）的后指针改为加入node，后节点的前指针（若不为null）改为加入node</p>
+<p>clear()方法就是遍历集合，把每个node的都置null，确保gc回收成功</p>
+<p>Vectory</p>
+<p>Vector的用法和arraylist基本一致，从jdk1.0开始就有的一个集合。</p>
+<p>*Vector是线程安全的，因此性能上没有arraylist好。</p>
+<p>Stack</p>
+<p>Stack是Vector的一个子类，模拟了栈的数据结构</p>
+<p><strong>总结：</strong></p>
+<p>1.如果需要遍历集合，ArrayList和Vector的性能通过随机访问的方式比较好（用数组存储数据），</p>
+<p>LinkedList用迭代器比较好（链表存储）</p>
+<p>2.LinkedList执行插入删除操作性能比较好（链表），ArrayList和Vector用数组实现，要动态扩容，耗费时间</p>
+<p>3.Vector保证线程安全</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/08/java%E5%9F%BA%E7%A1%80-equals%E6%96%B9%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/04/08/java%E5%9F%BA%E7%A1%80-equals%E6%96%B9%E6%B3%95/" itemprop="url">java基础-equals方法</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-08T22:30:44+08:00">
+                2020-04-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
+                    <span itemprop="name">java基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="equals方法"><a href="#equals方法" class="headerlink" title="equals方法"></a>equals方法</h1><h1 id="重写equals方法"><a href="#重写equals方法" class="headerlink" title="重写equals方法"></a>重写equals方法</h1><p>​    为什么要重写equals方法？我们知道Object类中的equals方法是用==比较两个对象内存地址是否相同，以此来判断两个对象是否相等。但是真实情况是，我们需要从逻辑上去判断对象是否相等。</p>
+<h3 id="hashCode-方法"><a href="#hashCode-方法" class="headerlink" title="hashCode()方法"></a>hashCode()方法</h3><p>hashcode（）方法获取hash码，我们把它看成一个int整数，它的作用是确定对象在散列结构中的位置。</p>
+<h3 id="为什么重写equals（）方法要重写hashcode（）方法"><a href="#为什么重写equals（）方法要重写hashcode（）方法" class="headerlink" title="为什么重写equals（）方法要重写hashcode（）方法"></a>为什么重写equals（）方法要重写hashcode（）方法</h3><p>如果对象被放入散列结构中，那么hashcode（）就会起作用。比如HashMap，当我们放入对象时，根据key的hashcode来确定存入的位置，如果存入的位置已经有了元素，就通过equals（）方法去比较key，若返回true则覆盖原来的key-value。</p>
+<p>由此我们可以看出equals（）和hashcode（）的关系：</p>
+<ul>
+<li><p>两个对象equals（）返回true时，它们的hashcode值需要相等</p>
+</li>
+<li><p>两个对象的hashcode值相等，它们通过equals比较不一定相等（hash冲突）</p>
+</li>
+</ul>
+<h3 id="当重写equals方法时，必须遵守它的通用约定。"><a href="#当重写equals方法时，必须遵守它的通用约定。" class="headerlink" title="当重写equals方法时，必须遵守它的通用约定。"></a>当重写equals方法时，必须遵守它的通用约定。</h3><p>1.自反性：对于任何非空引用x，x.equals(x)必须返回true</p>
+<p>2.对称性：对于任何非空引用x、y，如果且仅当x.equals(y)返回true时，y.equals(x)必须返回true</p>
+<p>3.传递性：对于任何非空引用 x、y、z，如果 x.equals(y) 返回 true，y.equals(z) 返回 true，则 x.equals(z) 必须返回 true。</p>
+<p>4.一致性： 对于任何非空引用 x 和 y，如果在 equals 比较中使用的信息没有修改，则 x.equals(y) 的多次调用必须始终返回 true 或始终返回 false。</p>
+<p>5.对于任何非空引用 x，x.equals(null) 必须返回 false</p>
+<h3 id="针对以上特性，编写equals方法的步骤如下："><a href="#针对以上特性，编写equals方法的步骤如下：" class="headerlink" title="针对以上特性，编写equals方法的步骤如下："></a>针对以上特性，编写equals方法的步骤如下：</h3><p>1.用==运算符检查是否为该对象的引用，若是则返回true；</p>
+<p>2.使用 instanceof 运算符来检查参数是否具有正确的类型。若不是则返回false；</p>
+<p>3.经过instance of的筛选，那么能直接将参数转换为正确的类型。</p>
+<p>4.对于类中的每个「重要」的属性，请检查该参数属性是否与该对象对应的属性相匹配。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/08/java%E5%9F%BA%E7%A1%80-%E6%95%B0%E7%BB%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jia ming">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jamin blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/04/08/java%E5%9F%BA%E7%A1%80-%E6%95%B0%E7%BB%84/" itemprop="url">java基础-数组</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-08T22:17:09+08:00">
+                2020-04-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
+                    <span itemprop="name">java基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="数组定义"><a href="#数组定义" class="headerlink" title="数组定义"></a>数组定义</h1><p>数组是相同类型数据的有序集合。数组中的每一个元素都可以通过下标来访问。数组是引用类型的数据。</p>
+<p>具有几个基本特点：</p>
+<ol>
+<li>数组的长度是确定的，一旦被创建，不可被改变</li>
+<li>数组元素必须是相同类型的</li>
+<li>数组类型可以是任何类型（基础数据类型和引用类型）</li>
+</ol>
+<h2 id="数组的初始化"><a href="#数组的初始化" class="headerlink" title="数组的初始化"></a>数组的初始化</h2><p>数组使用分为两部分，先是声明一个数组变量，这时在栈中创建一个引用，初始化后在堆中分配空间。只读成员length是数组对象的一部分（事实上这是唯一一个可以访问的字段或方法），表示数组可以存储多少个元素。</p>
+<p>1.静态初始化</p>
+<p>int [] arr = new int [] {1,2,3};</p>
+<p>或</p>
+<p>int [] arr = {1,2,3};</p>
+<p>2.动态初始化</p>
+<p>int [] arr = new int [3];</p>
+<p>当数组初始化只声明了数组的大小，系统会给数组中的元素分配默认值：</p>
+<p>整型数据（byte、short、int、long）默认值是0；</p>
+<p>浮点型数据（float，double）默认值是0.0；</p>
+<p>字符型数据（char）默认值是0对应的字符编码；</p>
+<p>布尔类型（boolean）默认值是false；</p>
+<p>引用类型数据（数组、类和接口）默认值是null；</p>
+<h2 id="数组的内存管理"><a href="#数组的内存管理" class="headerlink" title="数组的内存管理"></a>数组的内存管理</h2><p>我们知道java的内存分两种，栈内存用来存基本数据类型和引用数据类型的引用变量（创建和销毁的成本低），堆内存用来存实例对象（创建和销毁的成本高），栈内的引用指向堆内的具体对象。</p>
+<p>​    举个例子，在数组内存放一个book对象，实际存放的是对book对象的引用，操作修改数组内book对象的值，其实都是修改堆中的book对象值。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">jia ming</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jia ming</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
