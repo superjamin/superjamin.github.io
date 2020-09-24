@@ -349,15 +349,15 @@
 <p>request：每次http请求都会创建一个新的Bean。</p>
 <p>session：同一个http session共享一个Bean。</p>
 <p>globalSession：同一个全局session共享一个Bean。</p>
-<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923215802825.png" alt="image-20200923215802825"></p>
-<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923215914270.png" alt="image-20200923215914270"></p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/image-20200923215802825.png" alt="image-20200923215802825"></p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/image-20200923215914270.png" alt="image-20200923215914270"></p>
 <p>同一个打开的浏览器内请求多次结果：</p>
-<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923220118998.png" alt="image-20200923220118998"></p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/image-20200923220118998.png" alt="image-20200923220118998"></p>
 <p>换一个浏览器再次请求：</p>
-<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923220332843.png" alt="image-20200923220332843"></p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/image-20200923220332843.png" alt="image-20200923220332843"></p>
 <p>我们看到返回了新的Bean；</p>
 <p>在spring-web-5.2.5中，globalSession作用域名为application</p>
-<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/E:%5Cblog%5Csource_posts%5CSpring%E4%B9%8BBean%E7%9B%B8%E5%85%B3%5Cimage-20200923221701479.png" alt="image-20200923221701479"></p>
+<p><img src="/2020/09/23/Spring%E4%B9%8BBean%E7%9B%B8%E5%85%B3/image-20200923221701479.png" alt="image-20200923221701479"></p>
 <h2 id="Bean的生命周期"><a href="#Bean的生命周期" class="headerlink" title="Bean的生命周期"></a>Bean的生命周期</h2><p>spring中的bean从beanDifinition阶段开始，主要经历下面几个过程：</p>
 <ul>
 <li><p>调用instantiationAwareBeanPostProcessor的postProcessBeforeInstantiation()方法</p>
